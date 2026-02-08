@@ -8,7 +8,7 @@ import confetti from "canvas-confetti";
 // --- Configuration ---
 const CONFIG = {
   partnerName: "Teerak",
-  memoryImage: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=2000&auto=format&fit=crop",
+  memoryImage: "us.jpg",
   reassuranceText: [
     "ในวันที่เธอมีความสุข",
     "ในวันที่เธอมีความทุกข์",
@@ -20,22 +20,22 @@ const CONFIG = {
     {
       id: 1,
       text: "ในตอนเธอยิ้มให้",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop"
+      image: "smile-2.jpg"
     },
     {
       id: 2,
       text: "ในตอนที่เที่ยวด้วยกัน",
-      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop"
+      image: "travel.jpg"
     },
     {
       id: 3,
       text: "ในตอนที่กินของอร่อย",
-      image: "https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=800&auto=format&fit=crop"
+      image: "yummy.jpg"
     },
     {
       id: 4,
       text: "และทุกๆตอน",
-      image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=800&auto=format&fit=crop"
+      image: "all-time.jpg"
     },
   ],
 };
@@ -310,7 +310,7 @@ const StageFinale = ({ onRestart }: { onRestart: () => void }) => {
           <div className="relative aspect-square rounded-lg overflow-hidden bg-rose-50 mb-4 shadow-inner">
             <img
               // คุณสามารถเปลี่ยน URL รูปดอกไม้ที่ชอบได้ตรงนี้ครับ
-              src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=1000&auto=format&fit=crop"
+              src="hand.jpg"
               alt="Flower Bouquet"
               className="object-cover w-full h-full transform hover:scale-110 transition-transform duration-700"
             />
