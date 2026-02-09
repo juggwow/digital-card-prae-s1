@@ -49,7 +49,7 @@ export const CONFIG: ConfigType = {
 };
 
 export const AlterConfig: ConfigType = {
-    memoryImage: "/us.jpg", // ใส่ / นำหน้าชื่อไฟล์ใน public
+    memoryImage: "/intro.jpg", // ใส่ / นำหน้าชื่อไฟล์ใน public
     memoryText: "คนอะไรน่ารักจัง",
     reassuranceText: [
         "เธอน่ารักจัง",
@@ -58,25 +58,25 @@ export const AlterConfig: ConfigType = {
     reasons: [
         {
             id: 1,
-            text: "ในตอนเธอยิ้มให้",
-            image: "/smile-2.jpg"
+            text: "",
+            image: "/reason-1.jpg"
         },
         {
             id: 2,
-            text: "ในตอนที่เที่ยวด้วยกัน",
-            image: "/travel.jpg"
+            text: "",
+            image: "/reason-2.jpg"
         },
         {
             id: 3,
-            text: "ในตอนที่กินของอร่อย",
-            image: "/yummy.jpg"
+            text: "",
+            image: "/reason-3.jpg"
         },
         {
             id: 4,
-            text: "และทุกๆตอน",
-            image: "/all-time.jpg"
+            text: "",
+            image: "/reason-4.jpg"
         },
     ],
-    reasonText: "ยิ้มหน่อยสิ",
-    finalStageImg: "hand.jpg"
+    reasonText: "รักเธอนะ",
+    finalStageImg: "/final.jpg"
 };
