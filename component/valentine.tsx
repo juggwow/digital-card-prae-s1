@@ -19,7 +19,7 @@ export default function ValentineApp({ CONFIG }: { CONFIG: ConfigType }) {
             const imageUrls = [
                 CONFIG.memoryImage,
                 ...CONFIG.reasons.map(r => r.image),
-                "/hand.jpg",
+                CONFIG.finalStageImg,
             ];
 
             const promises = imageUrls.map((src) => {
