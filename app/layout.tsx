@@ -9,14 +9,16 @@ const playpen = Playpen_Sans_Thai({
 })
 
 export const metadata: Metadata = {
-  title: "Happy Valentine's day",
-  description: "Happy Valentine's day 2026 For Zumoo",
-  manifest: "/manifest.json", // 2. เชื่อมไฟล์ manifest
-  appleWebApp: { // 3. ตั้งค่าสำหรับ iPhone (iOS)
+  title: "ข้อความ Title",
+  description: "ข้อความคำอธิบาย",
+  applicationName: "ชื่อแอปสั้นๆ",
+  manifest: "/manifest.json",
+  appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Happy Valentine's day",
+    title: "ข้อความ Title",
   },
+
 };
 
 export const viewport: Viewport = {

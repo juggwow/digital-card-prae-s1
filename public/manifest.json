@@ -1,7 +1,7 @@
 {
-    "name": "Happy Valentine's Day 2026",
-    "short_name": "For Zumoo168",
-    "description": "Happy Valentine's Day 2026 For Zumoo168",
+    "name": "ชื่อ APP",
+    "short_name": "ชื่อ APP ที่แสดงบนมือถือ",
+    "description": "คำอธิบาย APP",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#fff1f2",

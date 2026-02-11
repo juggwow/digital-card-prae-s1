@@ -5,6 +5,7 @@ export type ConfigType = {
     reasons: ReasonType[]
     reasonText: string
     finalStageImg: string
+    finalStageText: string
 }
 
 type ReasonType = {
@@ -14,69 +15,70 @@ type ReasonType = {
 }
 
 export const CONFIG: ConfigType = {
-    memoryImage: "/us.jpg", // ใส่ / นำหน้าชื่อไฟล์ใน public
-    memoryText: "วันของเรา :)",
+    memoryImage: "/1.jpg", // ใส่ / นำหน้าชื่อไฟล์ใน public
+    memoryText: "ข้อความ 1. XXXXXXX",
     reassuranceText: [
-        "ในวันที่เธอมีความสุข",
-        "ในวันที่เธอมีความทุกข์",
-        "หรือในวันที่เธอไม่สบายใจ",
-        "เราพร้อมรับฟังและจะอยู่ข้างเธอเสมอ ❤️",
+        "ข้อความ 2.1 XXXXXXXX",
+        "ข้อความ 2.2 XXXXXXXX",
+        "ข้อความ 2.3 XXXXXXXX",
+        "ข้อความ 2.4 XXXXXXXX",
     ],
     reasons: [
         {
             id: 1,
-            text: "ในตอนเธอยิ้มให้",
-            image: "/smile-2.jpg"
+            text: "ข้อความ 3.1 XXXXX",
+            image: "/3-1.jpg"
         },
         {
             id: 2,
-            text: "ในตอนที่เที่ยวด้วยกัน",
-            image: "/travel.jpg"
+            text: "ข้อความ 3.2 XXXXX",
+            image: "/3-2.jpg"
         },
         {
             id: 3,
-            text: "ในตอนที่กินของอร่อย",
-            image: "/yummy.jpg"
+            text: "ข้อความ 3.3 XXXXX",
+            image: "/3-3.jpg"
         },
         {
             id: 4,
-            text: "และทุกๆตอน",
-            image: "/all-time.jpg"
+            text: "ข้อความ 3.4 XXXXXX",
+            image: "/3-4.jpg"
         },
     ],
-    reasonText: "เราจะอยู่ข้างเธอเสมอ",
-    finalStageImg: "hand.jpg"
+    reasonText: "ข้อความ 3",
+    finalStageImg: "4.gif",
+    finalStageText: "ข้อความ 4. XXXXXXX"
 };
 
-export const AlterConfig: ConfigType = {
-    memoryImage: "/intro.jpg", // ใส่ / นำหน้าชื่อไฟล์ใน public
-    memoryText: "คนอะไรน่ารักจัง",
-    reassuranceText: [
-        "เธอน่ารักจัง",
-        "ยิ้มแล้วน่ารัก",
-    ],
-    reasons: [
-        {
-            id: 1,
-            text: "",
-            image: "/reason-1.jpg"
-        },
-        {
-            id: 2,
-            text: "",
-            image: "/reason-2.jpg"
-        },
-        {
-            id: 3,
-            text: "",
-            image: "/reason-3.jpg"
-        },
-        {
-            id: 4,
-            text: "",
-            image: "/reason-4.jpg"
-        },
-    ],
-    reasonText: "รักเธอนะ",
-    finalStageImg: "/final.jpg"
-};
+// export const AlterConfig: ConfigType = {
+//     memoryImage: "/intro.jpg", // ใส่ / นำหน้าชื่อไฟล์ใน public
+//     memoryText: "คนอะไรน่ารักจัง",
+//     reassuranceText: [
+//         "เธอน่ารักจัง",
+//         "ยิ้มแล้วน่ารัก",
+//     ],
+//     reasons: [
+//         {
+//             id: 1,
+//             text: "",
+//             image: "/reason-1.jpg"
+//         },
+//         {
+//             id: 2,
+//             text: "",
+//             image: "/reason-2.jpg"
+//         },
+//         {
+//             id: 3,
+//             text: "",
+//             image: "/reason-3.jpg"
+//         },
+//         {
+//             id: 4,
+//             text: "",
+//             image: "/reason-4.jpg"
+//         },
+//     ],
+//     reasonText: "รักเธอนะ",
+//     finalStageImg: "/final.jpg"
+// };

@@ -1,9 +1,9 @@
 "use server"; // บรรทัดนี้สำคัญมาก! บอกว่าเป็น Server Code
 
-import { CONFIG, AlterConfig } from "@/component/config";
+import { CONFIG } from "@/component/config";
 
 // กำหนดรหัสลับที่นี่ (หรือจะดึงจาก process.env ก็ได้)
-const TRUE_CODE = "515690";
+const TRUE_CODE = "123456";
 
 export async function verifyAndGetConfig(passcode: string) {
     // จำลองความหน่วงนิดนึง (กันคนยิงรัวๆ และให้ดูเหมือนระบบกำลังคิด)
@@ -14,6 +14,6 @@ export async function verifyAndGetConfig(passcode: string) {
         return { success: true, data: CONFIG };
     } else {
         // ถ้ารหัสผิด -> ส่งของปลอมกลับไป (หรือจะไม่ส่งอะไรเลยก็ได้)
-        return { success: false, data: AlterConfig };
+        return { success: false, data: CONFIG };
     }
 }

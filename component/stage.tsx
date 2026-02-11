@@ -275,7 +275,7 @@ export const StageFinale = ({ onRestart, CONFIG }: { onRestart: () => void, CONF
         >
             <div className="flex-1 flex flex-col justify-center items-center w-full">
                 <h1 className="text-4xl font-bold text-rose-500 drop-shadow-sm">
-                    Happy Valentine's
+                    {CONFIG.finalStageText}
                 </h1>
 
                 <motion.div

@@ -6,8 +6,7 @@ import { Lock, Heart, KeyRound, Sparkles, Loader2, Delete, ChevronRight } from "
 
 import ValentineApp from "@/component/valentine";
 import { verifyAndGetConfig } from "./action";
-
-type ConfigType = any;
+import { ConfigType } from "@/component/config";
 
 export default function Page() {
   const [status, setStatus] = useState<'locked' | 'unlocked'>('locked');
