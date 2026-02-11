@@ -9,14 +9,14 @@ const playpen = Playpen_Sans_Thai({
 })
 
 export const metadata: Metadata = {
-  title: "ข้อความ Title",
-  description: "ข้อความคำอธิบาย",
-  applicationName: "ชื่อแอปสั้นๆ",
+  title: "Pair & Meen <3",
+  description: "Pair & Meen <3",
+  applicationName: "Pair & Meen <3",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "ข้อความ Title",
+    title: "Pair & Meen <3",
   },
 
 };

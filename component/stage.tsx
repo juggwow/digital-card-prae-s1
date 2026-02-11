@@ -210,11 +210,11 @@ export const StageInteractive = ({ onNext, CONFIG }: { onNext: () => void, CONFI
                                     layoutId={`card-${item.id}`}
                                     className="relative bg-white w-full max-w-sm rounded-3xl overflow-hidden shadow-2xl z-50 flex flex-col pointer-events-auto"
                                 >
-                                    <div className="relative aspect-[4/3]">
+                                    <div className="relative aspect-[3/4]">
                                         <img
                                             src={item.image}
                                             alt={item.text}
-                                            className="w-full h-full object-cover"
+                                            className="w-full h-full object-contain"
                                         />
                                     </div>
                                     <div className="p-6 text-center bg-white relative overflow-hidden">

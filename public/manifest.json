@@ -1,7 +1,7 @@
 {
-    "name": "ชื่อ APP",
-    "short_name": "ชื่อ APP ที่แสดงบนมือถือ",
-    "description": "คำอธิบาย APP",
+    "name": "Pair & Meen <3",
+    "short_name": "Pair & Meen <3",
+    "description": "Pair & Meen <3",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#fff1f2",
